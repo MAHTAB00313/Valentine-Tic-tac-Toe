@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 233, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainBox{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(237, 161, 218, 0.745);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.result{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 0, 144);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(255, 38, 157);
+    font-weight: bolder;
+}
+
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+
+/* Css for Borders */
+.topBorder{
+    border-top: 5px solid #fff;
+}
+
+.bottomBorder{
+    border-bottom: 5px solid #fff;
+}
+
+.leftBorder{
+    border-left: 5px solid #fff; 
+}
+
+.rightBorder{
+    border-right: 5px solid #fff; 
+}
+
+.btn{
+    width: 200px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(236, 45, 45, 0.795);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.resultBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.resultMsg{
+    background-color: rgb(229, 169, 179);
+    font-size: 50px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
